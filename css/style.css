@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "InterVariable";
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    font-family: "InterVariable";
+    padding: 80px 150px;
+}
+
+
+.row1 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.h1{
+    font-weight: 800;
+}
+
+/* New test */
+
+menu a{
+    text-decoration: none;
+    color: black;
+    margin: 30px 0px 30px 30px;
+}
+
+menu a:hover{
+    color: hsl(5, 85%, 63%)
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    /* padding: 50px 150px; */
+}
+
+.first-content{
+    margin-right: 20px;
+    width: 90vw;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.content1{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+.content1 h1{
+    font-size: 40px;
+    font-weight:bolder;
+    width: 600px;
+    padding-right:100px;
+}
+
+.de p{
+    font-size: 14px;
+    line-height: 20px;
+    width: auto;
+    margin-bottom: 35px;
+    color: #686868;
+}
+
+.full{
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 150px 80px 150px; */
+}
+
+.sidebar{
+    width: 20vw;
+    padding: 20px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    height: 85%;
+    justify-content: space-between;
+}
+
+.sidebar h1{
+    font-weight: 600;
+    color: hsl(35, 77%, 62%);
+    padding-bottom: 20px;
+}
+
+.sidebar h1:hover{
+    color: hsl(35, 77%, 62%)
+}
+
+.sidebar h2{
+    font-size:medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sidebar h2:hover{
+    color: hsl(35, 77%, 62%)
+}
+
+.sidebar p{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    margin-top: 10px;
+
+}
+
+hr{
+    margin: 30px 0px;
+    border-color: hsl(236, 13%, 42%);
+}
+
+
+.button{
+    background-color: hsl(5, 85%, 63%);
+    color: #ffffff;
+    padding: 16px 48px;
+    border-style: none;
+}
+
+.button:hover{
+    background-color: hsl(240, 100%, 5%) ;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-img{
+    width: 80px;
+    /* height: 120px; */
+    margin-right: 20px;
+}
+
+.details h1{
+    color:hsl(233, 8%, 79%);
+    font-size: 24px;
+    font-weight:bold;
+}
+
+.details h2{
+    font-size: 16px;
+    font-weight: 800;
+    margin: 10px 0px;
+    width: 200px;
+}
+
+.details h2:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.details p{
+    color:hsl(236, 13%, 42%);
+    font-size: 12px;
+    font-weight:400;
+}
+
+.details{
+    width: 170px;
+}
