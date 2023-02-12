@@ -3,13 +3,11 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: "InterVariable";
-    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
 body{
-    font-family: "InterVariable";
+    font-family: 'Inter', sans-serif;
     padding: 80px 150px;
 }
 
@@ -63,7 +61,7 @@ menu a:hover{
 
 .content1 h1{
     font-size: 40px;
-    font-weight:bolder;
+    font-weight:800;
     width: 600px;
     padding-right:100px;
 }
@@ -138,7 +136,7 @@ hr{
 footer{
     display: flex;
     flex-direction: row;
-    justify-content:space-between ;
+    justify-content:space-between;
     margin-top: 30px;
 }
 
