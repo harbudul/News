@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     </head>
     <body>
 
@@ -26,30 +27,33 @@
         <!-- hero -->
         <div class="full">
             <div class="first-content">
-                <img class="image" src="/assets/images/image-web-3-desktop.jpg" alt="">
+                <img class="image wow animate__animated animate__slideInLeft" data-wow-delay="2s"" src="/assets/images/image-web-3-desktop.jpg" alt="">
                 <div class="content1">
-                    <h1>The Bright Future of Web 3.0?</h1>
-                    <div class="de">
+                    <h1 class="wow animate__animated animate__slideInUp" data-wow-delay="2s">The Bright Future of Web 3.0?</h1>
+                    <div class="de wow animate__animated animate__slideInRight">
                         <p>We dive into the evolution of the web that claim to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-                        <input class="button" type="submit" value="READ MORE">
+                        <input class="button" data-wow-delay="2s"" type="submit" value="READ MORE">
                     </div>
                 </div>
             </div>
 
             <div class="second-content">
                 <div class="sidebar">
-                    <h1>New</h1>
-                    <h2>Hydrogen VS Electric Cars</h2>
-                    <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-                    <hr>
+                    <h1 class="wow animate__animated animate__slideInDown">New</h1>
+                    <div class="wow animate__animated animate__slideInDown">
+                        <h2>Hydrogen VS Electric Cars</h2>
+                        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                        <hr>
+    
+                        <h2>The downside of AI artistry</h2>
+                        <p>What are the possible adverse effect of on-demand AI image generator?</p>
+                        <hr>
+    
+                        <h2>Is VC funding drying up?</h2>
+                        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                        </p>
+                    </div>
 
-                    <h2>The downside of AI artistry</h2>
-                    <p>What are the possible adverse effect of on-demand AI image generator?</p>
-                    <hr>
-
-                    <h2>Is VC funding drying up?</h2>
-                    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.
-                    </p>
                     
                 </div>
             </div>
@@ -60,7 +64,7 @@
 
         <!-- footer  -->
 
-        <footer>
+        <footer class="wow animate__animated animate__bounceIn">
             <div class="footer">
                 <img class="footer-img" src="/assets/images/image-retro-pcs.jpg" alt="">
                 <div class="details">
@@ -89,3 +93,8 @@
     
     </body>
 </html>
+
+<script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+</script>
