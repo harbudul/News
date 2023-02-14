@@ -143,6 +143,7 @@ footer{
 .footer{
     display: flex;
     flex-direction: row;
+    width: 300px;
 }
 
 .footer-img{
@@ -175,6 +176,3 @@ footer{
     font-weight:400;
 }
 
-.details{
-    width: 170px;
-}
